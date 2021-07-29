@@ -1,0 +1,18 @@
+{
+  "name": "tspracises",
+  "version": "1.0.0",
+  "description": "Github Users Search Engine",
+  "main": "src/app/App.js",
+  "scripts": {
+    "start": "tsc src/app/App.ts && node src/app/App.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Khadija Ab",
+  "license": "ISC",
+  "dependencies": {
+    "@types/lodash": "^4.14.171",
+    "@types/request": "^2.48.6",
+    "lodash": "^4.17.21",
+    "request": "^2.88.2"
+  }
+}
